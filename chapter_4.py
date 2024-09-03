@@ -103,5 +103,4 @@ for revisedfood in new_foods:
     print(revisedfood)
 
 
-# EXERCISE 4.14.......
 

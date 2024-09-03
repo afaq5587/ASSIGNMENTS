@@ -129,3 +129,25 @@ print(places)
 
 
 # Exercise 3.10...--------------------------------------------------------------------
+# EXAMPLE 
+
+languages : list[str] = ["python", "c++", "java", "typescript", ]
+print(languages)
+print(languages[2].title())
+print(languages[3])
+print(languages[-2])
+languages[1] = "javascript"
+print(languages[1].title())
+languages.append("csharp")
+print(languages)
+del languages[3]
+print(languages)
+new_language = languages.pop(2)
+print(new_language)
+languages.sort()
+print(languages)
+languages.sort(reverse=True)
+print(languages)
+print(sorted(languages))
+language.reverse()
+print(languages)

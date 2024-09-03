@@ -158,3 +158,102 @@ else:
 
 # EXERCISE 5.6....
 
+age = 45  
+
+if age < 2:
+    print("The person is a baby.")
+elif 2 <= age < 4:
+    print("The person is a toddler.")
+elif 4 <= age < 13:
+    print("The person is a kid.")
+elif 13 <= age < 20:
+    print("The person is a teenager.")
+elif 20 <= age < 65:
+    print("The person is an adult.")
+else:  
+    print("The person is an elder.")
+
+# ======================================================================================
+
+# EXERCISE 5.7....
+
+favorite_fruits = ['apple', 'banana', 'orange', 'pineapple', 'kiwi']
+
+if 'apple' in favorite_fruits:
+    print("You really like apple! ")
+if 'banana' in favorite_fruits:
+    print("You really like banana! ")
+if 'orange' in favorite_fruits:
+    print("you really like orange! ")
+if 'pineapple' in favorite_fruits:
+    print("you really like pineapple! ")
+if 'kiwi' in favorite_fruits:
+    print("you really like kiwi! ")
+else :
+    print("You really like nothing! ")
+
+# ===========================================================================================
+
+# EXERCISE 5.8....
+
+user : str = 'admin'
+
+if user == "admin":
+    print( f"Hello {user}, \nwould you like to see a status report")
+else:
+    print( f"Hello {user}, \nthank you for logging in again")
+    
+# ===========================================================================================
+
+# EXERCISE 5.9....
+
+user: list = []
+if user == []:
+    print("we need to find some users")
+for users in user:
+    if user == "admin":
+        print( f"Hello {user}, \nwould you like to see a status report")
+    else:
+        print( f"Hello {user}, \nthank you for logging in again")
+    
+# ===========================================================================================
+
+# EXERCISE 5.10....
+
+current_users : list[str] = ["admin", "ali", "aslam", "usama", "saad"]
+new_users : list[str] = ["saad", "ASLAM", "usama", "sajjad", "sajid"]
+for users in new_users:
+    if users in current_users or users.upper() in current_users or users.lower() in current_users:
+        print(f"username {users} already exist")
+    else:
+        print(f"user name {users} is available")
+        
+# ================================================================================================
+
+# EXERCISE 5.11....
+
+numbers : list[int] = [1,2,3,4,5,6,7,8,9]
+
+for number in numbers:
+    if number == 1:
+        print(f"{number}st. ")
+    elif number == 2:
+        print(f"{number}nd. ")
+    elif number == 3:
+        print(f"{number}rd. ")
+    else:
+        print(f"{number}th. ")
+        
+# ================================================================================================
+
+# EXERCISE 5.12....
+
+# i tried in ever exercise to make evry program stylish.
+
+# ==============================================================================================================
+
+# NOTE!
+
+# SIR, THIS IS MY HARDWORK OF 2 DAYS. IF THERE IS ANY TYPE OF ERROR OR PROBLEM PLEASE INFORM ME.
+# I TRIED ALOT AND EVERYTHING WORKS PERFECTLY.
+# THANKS ALOT!
